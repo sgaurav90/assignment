@@ -1,20 +1,27 @@
 package com.singtel.assignment.model;
 
+import com.singtel.assignment.behaviours.Flyable;
+import com.singtel.assignment.behaviours.Singable;
+import com.singtel.assignment.behaviours.Walkable;
+
 public abstract class Parent {
 
+    Walkable walkable;
+    Flyable flyable;
+    Singable singable;
 
     /**
      * Need to be refactored
      */
     public void walk(){
-        System.out.println("I am walking");
+        this.walkable.walk();
     }
 
     public void fly() {
-        System.out.println("I am flying");
+        this.flyable.fly();
     }
 
     public void sing() {
-        System.out.println("I am singing");
+        this.singable.sing();
     }
 }
