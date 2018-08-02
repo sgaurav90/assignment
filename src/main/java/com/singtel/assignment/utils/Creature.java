@@ -1,0 +1,7 @@
+package com.singtel.assignment.utils;
+
+public enum Creature {
+
+    ANIMAL,BIRD,ROOSTER,DUCK,CHICKEN,BUTTERFLY,CATTERPILLAR,DOG,CAT,SHARK,CLOWFISH,FISH,PARROT,DOLPHIN,FROG;
+
+}

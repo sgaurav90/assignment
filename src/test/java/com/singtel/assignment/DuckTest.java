@@ -1,6 +1,5 @@
 package com.singtel.assignment;
 
-import com.singtel.assignment.model.Bird;
 import com.singtel.assignment.model.birds.Duck;
 import org.junit.Before;
 import org.junit.Rule;

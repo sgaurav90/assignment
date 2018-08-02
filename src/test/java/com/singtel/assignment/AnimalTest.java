@@ -1,7 +1,6 @@
 package com.singtel.assignment;
 
 import com.singtel.assignment.model.Animal;
-import org.junit.Rule;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.containsString;

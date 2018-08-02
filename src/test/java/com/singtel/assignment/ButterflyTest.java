@@ -1,7 +1,6 @@
 package com.singtel.assignment;
 
 import com.singtel.assignment.model.animals.Butterfly;
-import com.singtel.assignment.model.animals.Caterpillar;
 import org.junit.Before;
 import org.junit.Test;
 

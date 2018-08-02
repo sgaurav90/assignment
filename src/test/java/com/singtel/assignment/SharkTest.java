@@ -1,6 +1,5 @@
 package com.singtel.assignment;
 
-import com.singtel.assignment.model.Fish;
 import com.singtel.assignment.model.fish.Shark;
 import com.singtel.assignment.utils.Color;
 import com.singtel.assignment.utils.Size;

@@ -4,8 +4,11 @@ import com.singtel.assignment.behaviours.Flyable;
 import com.singtel.assignment.behaviours.Singable;
 import com.singtel.assignment.behaviours.Walkable;
 import com.singtel.assignment.behaviours.impl.swimmable.CanSwim;
+import com.singtel.assignment.utils.Creature;
 
 public abstract class Parent {
+
+    protected Creature type;
 
     protected Walkable walkable;
     protected Flyable flyable;
@@ -62,5 +65,13 @@ public abstract class Parent {
 
     public void setSwimmable(CanSwim swimmable) {
         this.swimmable = swimmable;
+    }
+
+    public Creature getType() {
+        return type;
+    }
+
+    public void setType(Creature type) {
+        this.type = type;
     }
 }

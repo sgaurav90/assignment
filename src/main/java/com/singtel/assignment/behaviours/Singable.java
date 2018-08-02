@@ -1,5 +1,7 @@
 package com.singtel.assignment.behaviours;
 
+import com.singtel.assignment.utils.Creature;
+
 import java.util.Locale;
 import java.util.ResourceBundle;
 
@@ -20,8 +22,8 @@ public interface Singable {
     }
 
 
-    default String getSound(String livingthing){
-      StringBuffer sound= new StringBuffer(livingthing).append(".sound");
+    default String getSound(Creature creature){
+      StringBuffer sound= new StringBuffer(creature.toString()).append(".sound");
       return    getBundle().getString(sound.toString());
     }
 
