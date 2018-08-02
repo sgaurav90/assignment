@@ -49,7 +49,7 @@ public class ParrotTest extends AbstractTest {
     public void testParrotLivingWithDuck(){
         parrot.setSingable(new DuckSound());
         parrot.sing();
-        assertThat(sysOut.asString(), containsString("Quakc,quack"));
+        assertThat(sysOut.asString(), containsString("Quack,quack"));
     }
 
 }
