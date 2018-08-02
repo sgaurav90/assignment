@@ -39,4 +39,7 @@ public class BirdTest {
         bird.sing();
         assertThat(sysOut.asString(), containsString("I am singing"));
     }
+
+
+
 }
